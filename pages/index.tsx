@@ -3,6 +3,7 @@ import { FaDiscord, FaEnvelope, FaEnvelopeOpen, FaEnvelopeSquare, FaGithub, FaGi
 import About from "../components/about";
 import Card from "../components/card";
 import { SocialItem, SocialWrapper } from "../components/social";
+import Head from 'next/head';
 
 const discordStyle: CSSProperties = {
   fontSize: "1.45rem",
@@ -13,6 +14,10 @@ export default class Index extends React.Component {
 
   render() {
     return(<Card>
+      <Head>
+        <title>EmirhanOlgn</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <About/>
       <SocialWrapper>
         <SocialItem target="https://github.com/emirhanolgn" custom={null}>

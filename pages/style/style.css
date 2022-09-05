@@ -78,7 +78,7 @@ body{
 }
 .icons li{
     list-style-type: none;
-    background: #B721FF;
+    background: #12192c;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -90,6 +90,7 @@ body{
     font-size: 1.2rem;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
+    border: 2px solid #fff;
 }
 .fa-discord {
     position: relative;
@@ -99,7 +100,8 @@ body{
     color: rgb(244, 244, 244);
 }
 .icons li:hover{
-    background: #edffec;
+    background: #B721FF;
+    border: 2px solid #B721FF;
     color: #000;
 }
 .about-right{
